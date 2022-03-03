@@ -2,7 +2,7 @@ html {
     /* px 表示 “像素（pixels）”: 基础字号为 10 像素 */
     font-size: 10px;
     /* Google fonts 输出的 CSS */
-    font-family: 'Ma Shan Zheng', cursive;
+    /* font-family: 'Ma Shan Zheng', cursive; */
 }
 
 h1 {
