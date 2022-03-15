@@ -25,7 +25,7 @@ if (!localStorage.getItem('name')) {
     setUserName();
 }
 else {
-    head.textContent = 'Hello' + localStorage.getItem('name');
+    head.textContent = 'Hello ' + localStorage.getItem('name');
 }
 
 let button = document.querySelector('button')
