@@ -59,6 +59,8 @@ h1 {
 h2 {
     font-size: 1.5em;
     font-style: italic;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
 }
 
 .job-title {
@@ -79,4 +81,9 @@ ul {
     background-color: #eeeeee;
     border: 5px purple solid;
     padding: 2em;
+}
+
+.box {
+    border: 5px solid #000;
+    border-radius: 10px;
 }
