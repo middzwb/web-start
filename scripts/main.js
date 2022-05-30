@@ -32,3 +32,7 @@ let button = document.querySelector('button')
 button.onclick = function () {
     setUserName();
 };
+
+var canvas = document.querySelector('.my_canvas');
+var width = canvas.width = window.innerWidth;
+var height = canvas.height = window.innerHeight;
