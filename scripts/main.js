@@ -54,7 +54,7 @@ function degToRad(degrees) {
 function rand(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + (min);
 }
-var len = 250;
+var len = 0; // 250
 var move_offset = 20;
 for (var i = 0; i < len; ++i) {
     ctx.fillStyle = 'rgba(' + (255 - len) + ', 0, ' + (255 - len) + ', 0.9)';
